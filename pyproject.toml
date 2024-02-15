@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "poetry-project"
+name = "qa-guru-python-9-18"
 version = "0.1.0"
 description = ""
 authors = ["Diana Sagaeva <d_sagaeva@mail.ru>"]
@@ -7,10 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-selene = "2.0.0rc7"
+selene = "2.0.0rc2"
 pytest = "^8.0.0"
 
-
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
 
 [build-system]
 requires = ["poetry-core"]
